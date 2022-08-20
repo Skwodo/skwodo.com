@@ -1,5 +1,6 @@
 window.onload = function(){
     const names = [
+        "pieron",
         "frisk",
         "chara",
         "skwodo",
