@@ -1,6 +1,5 @@
 window.onload = function(){
     const names = [
-        "pieron",
         "frisk",
         "chara",
         "skwodo",
@@ -10,7 +9,8 @@ window.onload = function(){
         "missing",
         "lemon",
         "famfo",
-        "delta"
+        "delta",
+        "pieron"
     ];
     var name;
     const hudlv = document.getElementById("hud-lv");
