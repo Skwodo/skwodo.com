@@ -9,6 +9,6 @@ template = "page.html"
 * Discord : Skwodo#5168
 * XMPP: [skwodo@skwodo.com](xmpp:skwodo@skwodo.com)
 * email: *not available for now*
-* github: [Skwodo](https://github.com/skwodo)
+* GitHub: [Skwodo](https://github.com/skwodo)
 
 </div>
