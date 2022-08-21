@@ -16,5 +16,5 @@ Anyway I'm Skwodo, a beginner programmer from Poland. For now my programming ski
 * [karx](https://karx.xyz)
 * [missing](https://missingpiece.dev)
 
-This website was made with the help of a static site engine [Zola](https://getzola.org). You can check out the source code on my [github](https://github.com/skwodo/skwodo.com).
+This website was made with the help of a static site engine [Zola](https://getzola.org). You can check out the source code on my [GitHub](https://github.com/skwodo/skwodo.com).
 </div>
