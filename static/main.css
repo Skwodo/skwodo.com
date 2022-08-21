@@ -56,10 +56,10 @@ body {
     margin-bottom: 0;
     line-height: 1.2em;
 }
-#list{
+#list li{
     text-transform: lowercase;
 }
-#list::first-letter{
+#list li::first-letter{
     text-transform: uppercase;
 }
 #title {
