@@ -10,7 +10,8 @@ window.onload = function(){
         "lemon",
         "famfo",
         "delta",
-        "pieron"
+        "pieron",
+        "szary"
     ];
     var name;
     const hudlv = document.getElementById("hud-lv");
