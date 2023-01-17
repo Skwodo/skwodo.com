@@ -76,13 +76,13 @@ body {
     text-transform: uppercase;
 }
 
-#title {
+header {
     text-align: center;
     margin: 2em 0;
     display: grid;
 }
 
-#title p {
+header p {
     font-size: 1.2em;
 }
 
@@ -109,12 +109,12 @@ body {
     font-family: "monsterf";
 }
 
-#title p {
+header p {
     text-align: right;
     margin: 0;
 }
 
-#title span {
+header span {
     font-size: 3em;
 }
 
@@ -174,7 +174,7 @@ body {
 }
 
 /* buttons */
-#footer {
+footer {
     color: #FF7F27;
     display: flex;
     font-family: "mercy";
@@ -186,7 +186,7 @@ body {
     font-size: min(1.5vw, 1em);
 }
 
-#footer div {
+footer div {
     border: 0.08em solid #F37C33;
     margin-bottom: 0.5em;
     padding-left: 0.2em;
@@ -195,13 +195,13 @@ body {
     min-width: 3em;
 }
 
-div#footer div a {
+footer div a {
     color: inherit;
 }
 
 /* links in buttons */
-div#footer div:hover,
-div#footer div.selected {
+footer div:hover,
+footer div.selected {
     border-color: #FFFF00;
     color: #FFFF00;
 }

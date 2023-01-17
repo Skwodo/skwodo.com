@@ -13,7 +13,7 @@
     <script type="text/javascript" src="/script.js"></script>
 </head>
 <body>
-    <div id="title">
+    <header>
         {% if page %}
         <div id="layer1">
             <span>{{ page.title }}</span>
@@ -44,23 +44,23 @@
             <span>{{ section.title }}</span>
         </div>
         {% endif %}
-    </div>
-    <div>
+    </header>
+    <main>
     <!--Make sure to put a <div> with an id of "box" at the beginning of every '.md' file,
         unless the file is the main blog page, then don't-->
     {% block content %} {% endblock %}
-        <div id="hud">
-            <span id="hud-text">frisk</span>
-            <span id="hud-lv">LV 1</span>
-            <div id="hud-right">
-                <span id="hud-hp">HP</span>
-                <div id="hud-hpbar"></div>
-                <span id="hud-kr">KR</span>
-                <span id="hud-text2">20 / 20</span>
-            </div>
+    </main>
+    <div id="hud">
+        <span id="hud-text">frisk</span>
+        <span id="hud-lv">LV 1</span>
+        <div id="hud-right">
+            <span id="hud-hp">HP</span>
+            <div id="hud-hpbar"></div>
+            <span id="hud-kr">KR</span>
+            <span id="hud-text2">20 / 20</span>
         </div>
     </div>
-    <div id="footer">
+    <footer>
         {% for navitem in config.extra.nav %}
         {% if section and section.path == navitem.path %}
         <div class="selected">
@@ -72,7 +72,7 @@
         </div>
         {% endif %}
         {% endfor %}
-    </div>
+    </footer>
 </body>
 
 </html>
