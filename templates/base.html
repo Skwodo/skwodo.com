@@ -49,13 +49,9 @@
     <footer>
         {% for navitem in config.extra.nav %}
         {% if section and section.path == navitem.path %}
-        <div class="selected">
-            <span id="heart">@</span><span>{{ navitem.label }}</span>
-        </div>
+        <a href="{{ navitem.path }}" class="selected"><span>@</span>{{ navitem.label }}</a>
         {% else %}
-        <div class="unselected">
-            <a href="{{ navitem.path }}"><span>{{ navitem.symbol }}{{ navitem.label }}</span></a>
-        </div>
+        <a href="{{ navitem.path }}" class="unselected">{{ navitem.symbol }}{{ navitem.label }}</a>
         {% endif %}
         {% endfor %}
     </footer>

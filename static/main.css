@@ -185,15 +185,12 @@ footer {
     font-family: "mercy";
     justify-content: space-between;
     box-sizing: border-box;
-    flex-grow: 0;
-    flex-shrink: 0;
     flex-flow: row wrap;
     font-size: min(1.5vw, 1em);
 }
 
-footer div {
+footer a {
     border: 0.08em solid #F37C33;
-    margin-bottom: 0.5em;
     padding-left: 0.2em;
     font-size: 3.25em;
     max-width: 3em;
@@ -201,15 +198,15 @@ footer div {
 }
 
 /* links in buttons */
-footer div:hover,
-footer div:hover a,
-footer div.selected {
+
+footer a:hover,
+footer a:focus-visible,
+footer a.selected {
     border-color: #FFFF00;
     color: #FFFF00;
 }
 
-/*selected button*/
-span#heart {
+footer a span {
     color: #ff0000;
 }
 
@@ -230,7 +227,8 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus-visible {
     color: #FFFF00;
 }
 
