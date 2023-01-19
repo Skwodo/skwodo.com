@@ -15,39 +15,25 @@
 <body>
     <header>
         {% if page %}
-        <div id="layer1">
-            <span>{{ page.title }}</span>
+            <div id="title" attr-text="{{ page.title }}">
+                <span>{{ page.title }}</span>
+            </div>
             {% if page.date %}
-                <p>{{ page.date }}</p>
+                <div id="date" attr-text="{{ page.date }}">
+                    <span>{{ page.date }}</span>
+                </div>
             {% endif %}
-        </div>
-        <div id="layer2">
-            <span>{{ page.title }}</span>
-            {% if page.date %}
-                <p>{{ page.date }}</p>
-            {% endif %}
-        </div>
-        <div id="layer3">
-            <span>{{ page.title }}</span>
-            {% if page.date %}
-                <p>{{ page.date }}</p>
-            {% endif %}
-        </div>
+
         {% elif section %}
-        <div id="layer1">
-            <span>{{ section.title }}</span>
-        </div>
-        <div id="layer2">
-            <span>{{ section.title }}</span>
-        </div>
-        <div id="layer3">
-            <span>{{ section.title }}</span>
-        </div>
+            <div id="title" attr-text="{{ section.title }}">
+                <span>{{ section.title }}</span>
+            </div>
         {% endif %}
     </header>
+
     <main>
-    <!--Make sure to put a <div> with an id of "box" at the beginning of every '.md' file,
-        unless the file is the main blog page, then don't-->
+    <!--Make sure to put a <div> with a class of "box" at the beginning of every '.md' file,
+        unless the file is the main blog page -->
     {% block content %} {% endblock %}
     </main>
     <div id="hud">

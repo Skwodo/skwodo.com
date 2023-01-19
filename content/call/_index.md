@@ -2,7 +2,7 @@
 title = "contAct info"
 template = "page.html"
 +++
-<div id="box">
+<div class="box">
 
 ### You can contact me through:
 

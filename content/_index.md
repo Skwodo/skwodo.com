@@ -2,7 +2,7 @@
 title = "skwOdo's website"
 template = "page.html"
 +++
-<div id="box">
+<div class="box">
 
 ## Welcome to my very own personal website!
 
