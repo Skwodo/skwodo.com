@@ -8,7 +8,7 @@ template = "page.html"
 
 While it is still very much a work in progress but I'm sure it will become useful someday. *Probably.*
 
-Anyway I'm Skwodo, a beginner programmer from Poland. For now my programming skills are limited to well *nothing*, but hopefully that will change soon.
+Anyway I'm Skwodo, a beginner programmer from Poland. For now my programming skills are mostly limited to Frontend, but I'm sure that'll change soon.
 
 ## My friends' websites
 * [lemon](https://lemonsh.moe) 
