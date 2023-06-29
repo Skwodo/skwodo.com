@@ -30,4 +30,4 @@ Invoke-NativeCommand git branch -m gh-pages
 Invoke-NativeCommand git push -f origin gh-pages
 Set-Location $opwd
 Invoke-NativeCommand git worktree remove $env:temp/lemondeploy
-Invoke-NativeCommand git push origin master
+Invoke-NativeCommand git push origin main
