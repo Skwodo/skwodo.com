@@ -6,9 +6,9 @@ template = "page.html"
 
 ### You can contact me through:
 
-* Discord : Skwodo#5168
+* Discord : @skwodo
 * XMPP: [skwodo@skwodo.com](xmpp:skwodo@skwodo.com)
-* email: *not available for now*
+* email: [skwodo@skwodo.com](mailto:skwodo@skwodo.com)
 * GitHub: [Skwodo](https://github.com/skwodo)
 
 </div>
